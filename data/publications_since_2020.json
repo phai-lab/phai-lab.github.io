@@ -1,0 +1,405 @@
+{
+  "source": "https://scholar.google.com.hk/citations?hl=en&user=tdoBO3UAAAAJ&view_op=list_works&sortby=pubdate",
+  "min_year": 2020,
+  "generated_at": "2025-12-21",
+  "count": 54,
+  "items": [
+    {
+      "title": "DynamicVerse: A Physically-Aware Multimodal Framework for 4D World Modeling",
+      "authors": "Kairun Wen, Yuzhi Huang, Runyu Chen, Hui Zheng, Yunlong Lin, Panwang Pan, Chenxin Li, Wenyan Cong, Jian Zhang, Junbin Lu, Chenguo Lin, Dilin Wang, Zhicheng Yan, Hongyu Xu, Justin Theiss, Yue Huang, Xinghao Ding, Rakesh Ranjan, Zhiwen Fan",
+      "venue": "arXiv preprint arXiv:2512.03000 , 2025",
+      "year": 2025,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:4E1Y8I9HL1wC",
+      "external_url": "https://arxiv.org/abs/2512.03000"
+    },
+    {
+      "title": "Scale Where It Matters: Training-Free Localized Scaling for Diffusion Models",
+      "authors": "Q Ren, Y Wang, L Guo, W Zhang, Z Fan, C You",
+      "venue": "arXiv preprint arXiv:2511.19917 , 2025",
+      "year": 2025,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:Ul_CLA4dPeMC"
+    },
+    {
+      "title": "AD-VF: LLM-Automatic Differentiation Enables Fine-Tuning-Free Robot Planning from Formal Methods Feedback",
+      "authors": "Y Yang, J Hong, GJ Perin, Z Fan, L Yin, Z Wang, U Topcu",
+      "venue": "arXiv preprint arXiv:2509.18384 , 2025",
+      "year": 2025,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:ehoypfNsBj8C"
+    },
+    {
+      "title": "Mmhu: A massive-scale multimodal benchmark for human behavior understanding",
+      "authors": "R Li, R Ye, M Wu, HF Yang, Z Fan, H Hu, Z Tu",
+      "venue": "arXiv preprint arXiv:2507.12463 , 2025",
+      "year": 2025,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:L7vk9XBBNxgC"
+    },
+    {
+      "title": "Martian World Models: Controllable Video Synthesis with Physically Accurate 3D Reconstructions",
+      "authors": "Longfei Li, Zhiwen Fan, Wenyan Cong, Xinhang Liu, Yuyang Yin, Matt Foutter, Panwang Pan, Chenyu You, Yue Wang, Zhangyang Wang, Yao Zhao, Marco Pavone, Yunchao Wei",
+      "venue": "NeurIPS 2025 Datasets & Benchmarks , 2025",
+      "year": 2025,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:E8ajGqO0XoUC",
+      "external_url": "https://arxiv.org/abs/2507.07978"
+    },
+    {
+      "title": "CryoFastAR: Fast Cryo-EM Ab Initio Reconstruction Made Easy",
+      "authors": "J Zhang, S Zhou, H Dai, X Liu, P Wang, Z Fan, Y Pei, J Yu",
+      "venue": "ICCV , 2025",
+      "year": 2025,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:2Q0AJrNhS-QC"
+    },
+    {
+      "title": "E3D-Bench: A Benchmark for End-to-End 3D Geometric Foundation Models",
+      "authors": "Wenyan Cong, Yiqing Liang, Yancheng Zhang, Ziyi Yang, Yan Wang, Boris Ivanovic, Marco Pavone, Chen Chen, Zhangyang Wang, Zhiwen Fan",
+      "venue": "arXiv preprint arXiv:2506.01933 , 2025",
+      "year": 2025,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:e3CVSTJ63dQC",
+      "external_url": "https://arxiv.org/abs/2506.01933"
+    },
+    {
+      "title": "VLM-3R: Vision-Language Models Augmented with Instruction-Aligned 3D Reconstruction",
+      "authors": "Zhiwen Fan, Jian Zhang, Renjie Li, Junge Zhang, Runjin Chen, Hezhen Hu, Kevin Wang, Huaizhi Qu, Dilin Wang, Zhicheng Yan, Hongyu Xu, Justin Theiss, Tianlong Chen, Jiachen Li, Zhengzhong Tu, Zhangyang Wang, Rakesh Ranjan",
+      "venue": "arXiv preprint arXiv:2505.20279 , 2025",
+      "year": 2025,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:vjZqxyZ7hS4C",
+      "external_url": "https://arxiv.org/abs/2505.20279"
+    },
+    {
+      "title": "Generative ai for autonomous driving: Frontiers and opportunities",
+      "authors": "Yuping Wang, Shuo Xing, Cui Can, Renjie Li, Hongyuan Hua, Kexin Tian, Zhaobin Mo, Xiangbo Gao, Keshu Wu, Sulong Zhou, Hengxu You, Juntong Peng, Junge Zhang, Zehao Wang, Rui Song, Mingxuan Yan, Walter Zimmer, Xingcheng Zhou, Peiran Li, Zhaohan Lu, Chia-Ju Chen, Yue Huang, Ryan A Rossi, Lichao Sun, Hongkai Yu, Zhiwen Fan, Frank Hao Yang, Yuhao Kang, Ross Greer, Chenxi Liu, Eun Hak Lee, Xuan Di, Xinyue Ye, Liu Ren, Alois Knoll, Xiaopeng Li, Shuiwang Ji, Masayoshi Tomizuka, Marco Pavone, Tianbao Yang, Jing Du, Ming-Hsuan Yang, Hua Wei, Ziran Wang, Yang Zhou, Jiachen Li, Zhengzhong Tu",
+      "venue": "arXiv preprint arXiv:2505.08854 , 2025",
+      "year": 2025,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:hEXC_dOfxuUC",
+      "external_url": "https://arxiv.org/abs/2505.08854"
+    },
+    {
+      "title": "Can Test-Time Scaling Improve World Foundation Model?",
+      "authors": "Wenyan Cong, Hanqing Zhu, Peihao Wang, Bangya Liu, Dejia Xu, Kevin Wang, David Z Pan, Yan Wang, Zhiwen Fan, Zhangyang Wang",
+      "venue": "COLM , 2025",
+      "year": 2025,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:5rMqqAh47xYC",
+      "external_url": "https://arxiv.org/abs/2503.24320"
+    },
+    {
+      "title": "X-Gaussian: 4D Radiative Gaussian Splatting for Continuous-time Tomographic Reconstruction",
+      "authors": "W Yu, Y Cai, R Zha, Z Fan, C Li, Y Yuan",
+      "venue": "ICCV , 2025",
+      "year": 2025,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:J4E9jCG1tHUC"
+    },
+    {
+      "title": "STAMP: Scalable Task And Model-agnostic Collaborative Perception",
+      "authors": "X Gao, R Xu, J Li, Z Wang, Z Fan, Z Tu",
+      "venue": "ICLR , 2025",
+      "year": 2025,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:VjBpw8Hezy4C"
+    },
+    {
+      "title": "Videolifter: Lifting videos to 3d with fast hierarchical stereo alignment",
+      "authors": "Wenyan Cong, Hanqing Zhu, Kevin Wang, Jiahui Lei, Colton Stearns, Yuanhao Cai, Dilin Wang, Rakesh Ranjan, Matt Feiszli, Leonidas Guibas, Zhangyang Wang, Weiyao Wang, Zhiwen Fan",
+      "venue": "CVPR Workshop , 2025",
+      "year": 2025,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:cF7EPgIk0B4C",
+      "external_url": "https://arxiv.org/abs/2501.01949"
+    },
+    {
+      "title": "Steepest Descent Density Control for Compact 3D Gaussian Splatting",
+      "authors": "Peihao Wang, Yuehao Wang, Dilin Wang, Sreyas Mohan, Zhiwen Fan, Lemeng Wu, Ruisi Cai, Yu-Ying Yeh, Zhangyang Wang, Qiang Liu, Rakesh Ranjan",
+      "venue": "CVPR , 2025",
+      "year": 2025,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:uoRD4RTSUPoC",
+      "external_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Steepest_Descent_Density_Control_for_Compact_3D_Gaussian_Splatting_CVPR_2025_paper.html"
+    },
+    {
+      "title": "Feature4x: Bridging any monocular video to 4d agentic ai with versatile gaussian feature fields",
+      "authors": "Shijie Zhou, Hui Ren, Yijia Weng, Shuwang Zhang, Zhen Wang, Dejia Xu, Zhiwen Fan, Suya You, Zhangyang Wang, Leonidas Guibas, Achuta Kadambi",
+      "venue": "CVPR , 2025",
+      "year": 2025,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:DGzKIA18-3YC",
+      "external_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhou_Feature4X_Bridging_Any_Monocular_Video_to_4D_Agentic_AI_with_CVPR_2025_paper.html"
+    },
+    {
+      "title": "Instantsplamp: Fast and generalizable stenography framework for generative gaussian splatting",
+      "authors": "C Li, H Liu, Z Fan, W Li, Y Liu, P Pan, Y Yuan",
+      "venue": "ICLR , 2025",
+      "year": 2025,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:HKviVsUxM5wC"
+    },
+    {
+      "title": "Large Spatial Model: End-to-end Unposed Images to Semantic 3D",
+      "authors": "Zhiwen Fan, Jian Zhang, Wenyan Cong, Peihao Wang, Renjie Li, Kairun Wen, Shijie Zhou, Achuta Kadambi, Zhangyang Wang, Danfei Xu, Boris Ivanovic, Marco Pavone, Yue Wang",
+      "venue": "NeurIPS , 2024",
+      "year": 2024,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:u_mOZUIutIEC",
+      "external_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/46fd43174b82660f24e3ba11cf5e1340-Abstract-Conference.html"
+    },
+    {
+      "title": "Symbolic visual reinforcement learning: A scalable framework with object-level abstraction and differentiable expression search",
+      "authors": "W Zheng, SP Sharan, Z Fan, K Wang, Y Xi, Z Wang",
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence , 2024",
+      "year": 2024,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:lvd772isFD0C"
+    },
+    {
+      "title": "Expressive Gaussian Human Avatars from Monocular RGB Video",
+      "authors": "H Hu, Z Fan, T Wu, Y Xi, S Lee, G Pavlakos, Z Wang",
+      "venue": "NeurIPS , 2024",
+      "year": 2024,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:Cvh0bltMcLgC"
+    },
+    {
+      "title": "4k4dgen: Panoramic 4d generation at 4k resolution",
+      "authors": "Renjie Li, Panwang Pan, Bangbang Yang, Dejia Xu, Shijie Zhou, Xuanyang Zhang, Zeming Li, Achuta Kadambi, Zhangyang Wang, Zhengzhong Tu, Zhiwen Fan",
+      "venue": "ICLR , 2024",
+      "year": 2024,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:cdwqcPQS8ssC",
+      "external_url": "https://arxiv.org/abs/2406.13527"
+    },
+    {
+      "title": "Learning traffic crashes as language: Datasets, benchmarks, and what-if causal analyses",
+      "authors": "Z Fan, P Wang, Y Zhao, Y Zhao, B Ivanovic, Z Wang, M Pavone, HF Yang",
+      "venue": "arXiv preprint arXiv:2406.10789 , 2024",
+      "year": 2024,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:feST4K8J0scC"
+    },
+    {
+      "title": "Llmgeo: Benchmarking large language models on image geolocation in-the-wild",
+      "authors": "Z Wang, D Xu, RMS Khan, Y Lin, Z Fan, X Zhu",
+      "venue": "arXiv preprint arXiv:2405.20363 , 2024",
+      "year": 2024,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:KqnX2w3egDsC"
+    },
+    {
+      "title": "DreamScene360: Unconstrained Text-to-3D Scene Generation with Panoramic Gaussian Splatting",
+      "authors": "Shijie* Zhou, Zhiwen* Fan, Dejia* Xu, Haoran Chang, Pradyumna Chari, Tejas Bharadwaj, Suya You, Zhangyang Wang, Achuta Kadambi",
+      "venue": "ECCV , 2024",
+      "year": 2024,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:urP0JZOBBUsC",
+      "external_url": "https://link.springer.com/chapter/10.1007/978-3-031-72658-3_19"
+    },
+    {
+      "title": "MM3DGS SLAM: Multi-modal 3D Gaussian Splatting for SLAM Using Vision, Depth, and Inertial Measurements",
+      "authors": "LC Sun, NP Bhatt, JC Liu, Z Fan, Z Wang, TE Humphreys, U Topcu",
+      "venue": "IROS , 2024",
+      "year": 2024,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:ZysSsiWj_g4C"
+    },
+    {
+      "title": "InstantSplat: Sparse-view Gaussian Splatting in Seconds",
+      "authors": "Zhiwen Fan, Wenyan Cong, Kairun Wen, Kevin Wang, Jian Zhang, Xinghao Ding, Danfei Xu, Boris Ivanovic, Marco Pavone, Georgios Pavlakos, Zhangyang Wang, Yue Wang",
+      "venue": "arXiv preprint arXiv:2403.20309 , 2024",
+      "year": 2024,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:_9Xh93LWpsYC",
+      "external_url": "https://arxiv.org/abs/2403.20309"
+    },
+    {
+      "title": "Learning to estimate 6dof pose from limited data: A few-shot, generalizable approach using rgb images",
+      "authors": "P Pan, Z Fan✉, BY Feng, P Wang, C Li, Z Wang",
+      "venue": "3DV , 2024",
+      "year": 2024,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:wkm4DBaukwsC"
+    },
+    {
+      "title": "Lift3D: Zero-Shot Lifting of Any 2D Vision Model to 3D",
+      "authors": "M Varma T, P Wang, Z Fan, Z Wang, H Su, R Ramamoorthi",
+      "venue": "CVPR , 2024",
+      "year": 2024,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:_IsBomjs8bsC"
+    },
+    {
+      "title": "NeRF as Pretraining at Scale: Generalizable 3D-Aware Semantic Representation Learning from View Prediction",
+      "authors": "W Cong, H Liang, Z Fan, P Wang, Y Jiang, D Xu, AC Oztireli, Z Wang",
+      "venue": "ICCV , 2024",
+      "year": 2024,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:xa5BkEQK8BgC"
+    },
+    {
+      "title": "Taming mode collapse in score distillation for text-to-3d generation",
+      "authors": "Peihao Wang, Dejia Xu, Zhiwen Fan, Dilin Wang, Sreyas Mohan, Forrest Iandola, Rakesh Ranjan, Yilei Li, Qiang Liu, Zhangyang Wang, Vikas Chandra",
+      "venue": "CVPR , 2024",
+      "year": 2024,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:NXYAu82O0W8C",
+      "external_url": "http://openaccess.thecvf.com/content/CVPR2024/html/Wang_Taming_Mode_Collapse_in_Score_Distillation_for_Text-to-3D_Generation_CVPR_2024_paper.html"
+    },
+    {
+      "title": "Feature 3dgs: Supercharging 3d gaussian splatting to enable distilled feature fields",
+      "authors": "Shijie Zhou, Haoran Chang, Sicheng Jiang, Zhiwen Fan, Zehao Zhu, Dejia Xu, Pradyumna Chari, Suya You, Zhangyang Wang, Achuta Kadambi",
+      "venue": "CVPR , 2024",
+      "year": 2024,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:vD2iS2Kej30C",
+      "external_url": "http://openaccess.thecvf.com/content/CVPR2024/html/Zhou_Feature_3DGS_Supercharging_3D_Gaussian_Splatting_to_Enable_Distilled_Feature_CVPR_2024_paper.html"
+    },
+    {
+      "title": "Lightgaussian: Unbounded 3d gaussian compression with 15x reduction and 200+ fps",
+      "authors": "Z Fan, K Wang, K Wen, Z Zhu, D Xu, Z Wang",
+      "venue": "NeurIPS , 2024",
+      "year": 2024,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:eAUscmXIlQ8C"
+    },
+    {
+      "title": "Pope: 6-dof promptable pose estimation of any object in any scene with one reference",
+      "authors": "Z Fan, P Pan, P Wang, Y Jiang, D Xu, Z Wang",
+      "venue": "CVPR Workshop , 2024",
+      "year": 2024,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:iKswqCX-FLkC"
+    },
+    {
+      "title": "Steindreamer: Variance reduction for text-to-3d score distillation via stein identity",
+      "authors": "Peihao Wang, Zhiwen Fan, Dejia Xu, Dilin Wang, Sreyas Mohan, Forrest Iandola, Rakesh Ranjan, Yilei Li, Qiang Liu, Zhangyang Wang, Vikas Chandra",
+      "venue": "AISTATS , 2023",
+      "year": 2023,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:oynPyU19kbsC",
+      "external_url": "https://arxiv.org/abs/2401.00604"
+    },
+    {
+      "title": "Fsgs: Real-time few-shot view synthesis using gaussian splatting",
+      "authors": "Z Zhu*, Z Fan*, Y Jiang, Z Wang",
+      "venue": "ECCV , 2023",
+      "year": 2023,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:ybfzIt2tCtgC"
+    },
+    {
+      "title": "INR-Arch: A dataflow architecture and compiler for arbitrary-order gradient computations in implicit neural representation processing",
+      "authors": "S Abi-Karam, R Sarkar, D Xu, Z Fan, Z Wang, C Hao",
+      "venue": "ICCAD , 2023",
+      "year": 2023,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:ufKn5pxu7C0C"
+    },
+    {
+      "title": "Edge-moe: Memory-efficient multi-task vision transformer architecture with task-level sparsity via mixture-of-experts",
+      "authors": "R Sarkar, H Liang, Z Fan, Z Wang, C Hao",
+      "venue": "ICCAD , 2023",
+      "year": 2023,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:It0W0vAlS5QC"
+    },
+    {
+      "title": "Pose-free generalizable rendering transformer",
+      "authors": "Z Fan, P Pan, P Wang, Y Jiang, H Jiang, D Xu, Z Zhu, D Wang, Z Wang",
+      "venue": "arXiv preprint arXiv:2310.03704 , 2023",
+      "year": 2023,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:XtJa11BXPS4C"
+    },
+    {
+      "title": "Data-model-circuit tri-design for ultra-light video intelligence on edge devices",
+      "authors": "Yimeng Zhang, Akshay Karkal Kamath, Qiucheng Wu, Zhiwen Fan, Wuyang Chen, Zhangyang Wang, Shiyu Chang, Sijia Liu, Cong Hao",
+      "venue": "Proceedings of the 28th Asia and South Pacific Design Automation Conference … , 2023",
+      "year": 2023,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:9ZlFYXVOiuMC",
+      "external_url": "https://dl.acm.org/doi/abs/10.1145/3566097.3567864"
+    },
+    {
+      "title": "Enhancing nerf akin to enhancing llms: Generalizable nerf transformer with mixture-of-view-experts",
+      "authors": "W Cong, H Liang, P Wang, Z Fan, T Chen, M Varma, Y Wang, Z Wang",
+      "venue": "ICCV , 2023",
+      "year": 2023,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:v_xunPV0uK0C"
+    },
+    {
+      "title": "Steganerf: Embedding invisible information within neural radiance fields",
+      "authors": "C Li*, BY Feng*, Z Fan*, P Pan, Z Wang",
+      "venue": "ICCV , 2023",
+      "year": 2023,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:7PzlFSSx8tAC"
+    },
+    {
+      "title": "Neurallift-360: Lifting an in-the-wild 2d photo to a 3d object with 360deg views",
+      "authors": "D Xu, Y Jiang, P Wang, Z Fan, Y Wang, Z Wang",
+      "venue": "CVPR , 2023",
+      "year": 2023,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:dhFuZR0502QC"
+    },
+    {
+      "title": "NeRF-SOS: Any-View Self-supervised Object Segmentation on Complex Scenes",
+      "authors": "Z Fan, P Wang, Y Jiang, X Gong, D Xu, Z Wang",
+      "venue": "ICLR , 2023",
+      "year": 2023,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:M3ejUd6NZC8C"
+    },
+    {
+      "title": "Signal processing for implicit neural representations",
+      "authors": "D Xu, P Wang, Y Jiang, Z Fan, Z Wang",
+      "venue": "NeurIPS , 2022",
+      "year": 2022,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:4DMP91E08xMC"
+    },
+    {
+      "title": "Point cloud domain adaptation via masked local 3d structure prediction",
+      "authors": "H Liang, H Fan, Z Fan, Y Wang, T Chen, Y Cheng, Z Wang",
+      "venue": "ECCV , 2022",
+      "year": 2022,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:qxL8FJ1GzNcC"
+    },
+    {
+      "title": "Unified implicit neural stylization",
+      "authors": "Z Fan, Y Jiang, P Wang, X Gong, D Xu, Z Wang",
+      "venue": "ECCV , 2022",
+      "year": 2022,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:3fE2CSJIrl8C"
+    },
+    {
+      "title": "Sinnerf: Training neural radiance fields on complex scenes from a single image",
+      "authors": "D Xu, Y Jiang, P Wang, Z Fan, H Shi, Z Wang",
+      "venue": "ECCV , 2022",
+      "year": 2022,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:MXK_kJrjxJIC"
+    },
+    {
+      "title": "Can we solve 3D vision tasks starting from a 2D vision transformer?",
+      "authors": "Y Wang, Z Fan, T Chen, H Fan, Z Wang",
+      "venue": "arXiv preprint arXiv:2209.07026 , 2022",
+      "year": 2022,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:_kc_bZDykSQC"
+    },
+    {
+      "title": "M³vit: Mixture-of-experts vision transformer for efficient multi-task learning with model-accelerator co-design",
+      "authors": "Z Fan, R Sarkar, Z Jiang, T Chen, K Zou, Y Cheng, C Hao, Z Wang",
+      "venue": "NeurIPS , 2022",
+      "year": 2022,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:mVmsd5A6BfQC"
+    },
+    {
+      "title": "Aug-nerf: Training stronger neural radiance fields with triple-level physically-grounded augmentations",
+      "authors": "T Chen, P Wang, Z Fan, Z Wang",
+      "venue": "CVPR , 2022",
+      "year": 2022,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:KlAtU1dfN6UC"
+    },
+    {
+      "title": "Cadtransformer: Panoptic symbol spotting transformer for cad drawings",
+      "authors": "Z Fan, T Chen, P Wang, Z Wang",
+      "venue": "CVPR , 2022",
+      "year": 2022,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:kNdYIx-mwKoC"
+    },
+    {
+      "title": "Meshmvs: multi-view stereo guided mesh reconstruction",
+      "authors": "R Shrestha, Z Fan, Q Su, Z Dai, S Zhu, P Tan",
+      "venue": "2021 International Conference on 3D Vision (3DV), 1290-1300 , 2021",
+      "year": 2021,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:LkGwnXOMwfcC"
+    },
+    {
+      "title": "Floorplancad: A large-scale cad drawing dataset for panoptic symbol spotting",
+      "authors": "Z Fan, L Zhu, H Li, X Chen, S Zhu, P Tan",
+      "venue": "ICCV , 2021",
+      "year": 2021,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:Se3iqnhoufwC"
+    },
+    {
+      "title": "A deep error correction network for compressed sensing MRI",
+      "authors": "L Sun, Y Wu, Z Fan, X Ding, Y Huang, J Paisley",
+      "venue": "BMC Biomedical Engineering 2 (1), 4 , 2020",
+      "year": 2020,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:hqOjcs7Dif8C"
+    },
+    {
+      "title": "Cascade Cost Volume for High-Resolution Multi-View Stereo and Stereo Matching",
+      "authors": "X Gu*, Z Fan*, S Zhu, Z Dai, F Tan, P Tan",
+      "venue": "CVPR , 2020",
+      "year": 2020,
+      "scholar_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=tdoBO3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=tdoBO3UAAAAJ:_FxGoFyzp5QC"
+    }
+  ],
+  "enriched_at": "2025-12-21",
+  "enriched_updated": 17
+}
