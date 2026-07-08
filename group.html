@@ -82,6 +82,33 @@
       color: #202326;
       opacity: 0.55;
     }
+    .visitor-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      gap: 14px;
+    }
+    .visitor-item {
+      padding: 14px 16px;
+      border-left: 3px solid rgb(140, 29, 64);
+      background: #fafafa;
+    }
+    .visitor-name {
+      font-weight: 650;
+      color: #202326;
+      margin-bottom: 4px;
+    }
+    .visitor-detail {
+      color: #626970;
+      font-size: 0.95rem;
+      line-height: 1.4;
+      margin-top: 3px;
+    }
+    .visitor-detail strong {
+      color: #202326;
+      font-weight: 600;
+    }
     @media (max-width: 575.98px) {
       .person-photo { width: 220px; height: 220px; }
       .person-card { width: 220px; }
@@ -187,13 +214,37 @@
         <div class="section-title" style="margin: 40px 0 20px;">
           <h2>Visiting Students &amp; Interns &amp; External Collaborations</h2>
         </div>
-        <ul>
-          <li><a href="https://profiles.stanford.edu/tracy-han" target="_blank" rel="noopener">Tracy Han</a> - Research Assistant, Stanford University.</li>
-          <li><a href="https://lulinliu.github.io/" target="_blank" rel="noopener">Lulin Liu</a> - Senior undergraduate, University of Minnesota.</li>
-          <li><a href="https://scholar.google.com/citations?user=YfuA8zoAAAAJ&amp;hl=en" target="_blank" rel="noopener">Zihao Zhu</a> - Senior undergraduate, Texas A&amp;M University.</li>
-          <li><a href="https://scholar.google.com/citations?user=KhnCDPUAAAAJ&amp;hl=en" target="_blank" rel="noopener">Minseong Kweon</a> - Master student, University of Minnesota.</li>
-          <li><a href="https://scholar.google.com/citations?user=fmsrSk8AAAAJ&amp;hl=en" target="_blank" rel="noopener">Qianqian Yang</a> - Master student, Carnegie Mellon University.</li>
-          <li><a href="https://sicongjiang.com/" target="_blank" rel="noopener">Sicong Jiang</a> - PhD student at McGill University, and researcher at 2077AI.</li>
+        <ul class="visitor-list">
+          <li class="visitor-item">
+            <div class="visitor-name"><a href="https://profiles.stanford.edu/tracy-han" target="_blank" rel="noopener">Tracy Han</a></div>
+            <div class="visitor-detail"><strong>Role:</strong> Research Assistant, Stanford University.</div>
+          </li>
+          <li class="visitor-item">
+            <div class="visitor-name"><a href="https://lulinliu.github.io/" target="_blank" rel="noopener">Lulin Liu</a></div>
+            <div class="visitor-detail"><strong>Role:</strong> Senior undergraduate, University of Minnesota.</div>
+            <div class="visitor-detail"><strong>Outcomes:</strong> 1 CVPR, 2 ECCV, and 1 IROS paper.</div>
+            <div class="visitor-detail"><strong>Current:</strong> Interning at Adobe, co-advised by Dr. Fan.</div>
+          </li>
+          <li class="visitor-item">
+            <div class="visitor-name"><a href="https://scholar.google.com/citations?user=YfuA8zoAAAAJ&amp;hl=en" target="_blank" rel="noopener">Zihao Zhu</a></div>
+            <div class="visitor-detail"><strong>Role:</strong> Senior undergraduate, Texas A&amp;M University.</div>
+            <div class="visitor-detail"><strong>Outcomes:</strong> 1 ICML and 2 COLM papers.</div>
+            <div class="visitor-detail"><strong>Next:</strong> Incoming Ph.D. student at Texas A&amp;M University.</div>
+          </li>
+          <li class="visitor-item">
+            <div class="visitor-name"><a href="https://scholar.google.com/citations?user=KhnCDPUAAAAJ&amp;hl=en" target="_blank" rel="noopener">Minseong Kweon</a></div>
+            <div class="visitor-detail"><strong>Role:</strong> Master student, University of Minnesota.</div>
+            <div class="visitor-detail"><strong>Outcome:</strong> DarkVGGT.</div>
+            <div class="visitor-detail"><strong>Current:</strong> Research Assistant at UPenn.</div>
+          </li>
+          <li class="visitor-item">
+            <div class="visitor-name"><a href="https://scholar.google.com/citations?user=fmsrSk8AAAAJ&amp;hl=en" target="_blank" rel="noopener">Qianqian Yang</a></div>
+            <div class="visitor-detail"><strong>Role:</strong> Master student, Carnegie Mellon University.</div>
+          </li>
+          <li class="visitor-item">
+            <div class="visitor-name"><a href="https://sicongjiang.com/" target="_blank" rel="noopener">Sicong Jiang</a></div>
+            <div class="visitor-detail"><strong>Role:</strong> Ph.D. student at McGill University and researcher at 2077AI.</div>
+          </li>
         </ul>
       </div>
     </div>
@@ -231,7 +282,6 @@
   <script src="./phai-lab_files/jquery.mb.YTPlayer.min.js"></script>
 </body>
 </html>
-
 
 
 
