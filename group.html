@@ -29,6 +29,28 @@
       align-items: flex-start;
     }
     .person-card { text-align: center; margin: 0; width: 260px; max-width: 100%; }
+    .phd-grid {
+      flex-wrap: nowrap;
+      gap: 28px;
+      justify-content: space-between;
+    }
+    .phd-grid .person-card {
+      flex: 0 0 21%;
+      width: 21%;
+    }
+    .phd-grid .person-photo {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 1 / 1;
+    }
+    .phd-grid .person-muted { font-size: 0.9rem; }
+    .phd-grid .person-links {
+      flex-wrap: nowrap;
+      font-size: 0.88rem;
+    }
+    .phd-grid .person-links a { padding: 0 5px; }
+    .phd-grid .person-links a + a { padding-left: 16px; }
+    .phd-grid .person-links a + a:before { left: 5px; }
     .person-photo {
       width: 260px;
       height: 260px;
@@ -112,6 +134,22 @@
     @media (max-width: 575.98px) {
       .person-photo { width: 220px; height: 220px; }
       .person-card { width: 220px; }
+      .phd-grid {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .phd-grid .person-card { flex-basis: 220px; width: 220px; }
+      .phd-grid .person-photo { width: 220px; height: 220px; }
+    }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      .phd-grid {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+      }
+      .phd-grid .person-card {
+        flex-basis: calc(50% - 14px);
+        width: calc(50% - 14px);
+      }
     }
   </style>
 </head>
@@ -184,7 +222,7 @@
           <h2>Ph.D. Students</h2>
         </div>
 
-        <div class="people-grid">
+        <div class="people-grid phd-grid">
           <div class="person-card">
             <img class="person-photo" src="./phai-lab_files/nuochen.jpg" alt="Nuo Chen">
             <div class="person-name"><a href="https://nuochen1203.github.io/" target="_blank" rel="noopener">Nuo Chen</a></div>
@@ -207,6 +245,15 @@
             <div class="person-muted">Ph.D. Student (Fall 2025 - )</div>
             <div class="person-links">
               <a href="https://edisiondyli.github.io/" target="_blank" rel="noopener">Homepage</a>
+            </div>
+          </div>
+          <div class="person-card">
+            <img class="person-photo" src="./phai-lab_files/jianzhang.jpg" alt="Jian Zhang">
+            <div class="person-name"><a href="https://jzh15.github.io/" target="_blank" rel="noopener">Jian Zhang</a></div>
+            <div class="person-muted">Ph.D. Student (Fall 2026 - )</div>
+            <div class="person-links">
+              <a href="https://jzh15.github.io/" target="_blank" rel="noopener">Homepage</a>
+              <a href="https://scholar.google.com/citations?user=qBNtBsAAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a>
             </div>
           </div>
         </div>
@@ -282,7 +329,3 @@
   <script src="./phai-lab_files/jquery.mb.YTPlayer.min.js"></script>
 </body>
 </html>
-
-
-
-
