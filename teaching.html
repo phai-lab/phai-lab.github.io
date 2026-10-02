@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>PHAI</title>
+  <title>Teaching | PHAI</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Teaching at PHAI: multimodal computer vision, multimodal vision, and computational data science at Texas A&amp;M University.">
 
   <link href="./phai-lab_files/google-fonts.css" rel="stylesheet">
   <link rel="stylesheet" href="./phai-lab_files/style.css">
@@ -19,18 +20,73 @@
   <link rel="icon" type="image/png" href="./phai-lab_files/logo-phai.png">
 
   <style>
-    .page-wrap { max-width: 980px; }
-    .term-title { margin-top: 22px; font-weight: 700; }
-    .course-title { font-weight: 650; color: #202326; margin-top: 6px; }
-    .course-subtitle { color: #6c757d; margin-top: 4px; }
-    .course-card { padding: 14px 0 6px; border-bottom: 1px solid #f0f0f0; }
-    .course-card:last-of-type { border-bottom: none; }
-    .course-kv { margin-top: 10px; }
-    .course-k { color: #6c757d; font-weight: 600; }
+    /* Self-contained Teaching page styles; shared site assets are unchanged. */
+    .teaching-page { padding: 44px 0 64px; background: #faf9f7; color: #252a30; }
+    .teaching-wrap { max-width: 1080px; }
+    .teaching-heading { display: flex; align-items: end; justify-content: space-between; gap: 24px; margin-bottom: 30px; }
+    .teaching-heading h1 { margin: 0 0 7px; font-size: 2.4rem; font-weight: 500; letter-spacing: -.04em; line-height: 1.15; color: #252a30; }
+    .teaching-heading p { margin: 0; color: #64666a; font-size: .95rem; line-height: 1.6; }
+    .teaching-heading .teaching-affiliation { text-align: right; font-size: .82rem; line-height: 1.6; color: #6f6f6f; }
+    .course-list { display: grid; gap: 22px; }
+    .teaching-page .course-card { display: grid; grid-template-columns: 142px minmax(0, 1fr); overflow: hidden; border: 1px solid #e3dfdb; border-radius: 8px; background: #fff; }
+    .course-term { padding: 30px 24px; border-right: 1px solid #e8e3e0; background: #f5f1ef; }
+    .course-term .season { display: block; margin-bottom: 5px; color: #7c3045; font-size: .95rem; font-weight: 500; }
+    .course-term .year { display: block; color: #7c3045; font-family: "Cabin", sans-serif; font-size: 2.8rem; font-weight: 500; letter-spacing: -.035em; line-height: 1.1; }
+    .course-body { min-width: 0; padding: 27px 30px 0; }
+    .course-heading { display: flex; align-items: start; justify-content: space-between; gap: 22px; }
+    .course-code { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 14px; margin: 0 0 8px; color: #65676c; font-family: "B612 Mono", monospace; font-size: .76rem; letter-spacing: .025em; line-height: 1.5; }
+    .course-code .credits { padding-left: 14px; border-left: 1px solid #dcd7d4; font-family: "Cabin", sans-serif; letter-spacing: 0; font-size: .85rem; }
+    .teaching-page .course-title { margin: 0; color: #252a30; font-size: 1.65rem; font-weight: 500; line-height: 1.25; letter-spacing: -.02em; }
+    .course-type { margin: 6px 0 0; color: #6f6f6f; font-size: .86rem; }
+    .course-link { display: inline-flex; align-items: center; justify-content: center; gap: 12px; flex: 0 0 auto; min-height: 42px; padding: 8px 13px; border: 1px solid #d3bec4; border-radius: 4px; color: #7c3045; background: #fff; font-size: .85rem; font-weight: 500; line-height: 1.4; text-decoration: none; }
+    .course-link:hover { color: #682238; border-color: #7c3045; background: #faf5f6; }
+    .course-link span { font-size: 1rem; }
+    .course-schedule, .course-admin { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px 22px; margin: 23px 0 0; }
+    .course-schedule--two { grid-template-columns: 1fr 2fr; }
+    .teaching-page dt { margin: 0 0 4px; color: #6f6f6f; font-size: .74rem; font-weight: 400; letter-spacing: .02em; }
+    .teaching-page dd { margin: 0; color: #353b43; font-size: .88rem; font-weight: 400; line-height: 1.55; }
+    .course-details { margin-top: 23px; border-top: 1px solid #ece8e5; }
+    .course-details summary { position: relative; width: fit-content; display: flex; align-items: center; gap: 10px; min-height: 46px; color: #65676c; font-size: .8rem; line-height: 1.4; list-style: none; cursor: pointer; }
+    .course-details summary::-webkit-details-marker { display: none; }
+    .course-details summary::after { content: "+"; color: #7c3045; font-size: 1.1rem; line-height: 1; }
+    .course-details[open] summary::after { content: "−"; }
+    .course-details summary:hover { color: #7c3045; }
+    .course-admin { grid-template-columns: repeat(2, minmax(0, 1fr)); margin: 0; padding: 2px 0 22px; }
+    .course-admin .certified { color: #3b6250; }
+    .teaching-page a:focus-visible, .course-details summary:focus-visible { outline: 3px solid #8c1d40; outline-offset: 4px; }
+    @media (max-width: 991.98px) {
+      .course-heading { flex-wrap: wrap; gap: 15px; }
+      .teaching-page .course-title { font-size: 1.5rem; }
+      .course-body { padding: 24px 25px 0; }
+    }
+    @media (max-width: 767.98px) {
+      .teaching-page { padding: 30px 0 42px; }
+      .teaching-heading { display: block; margin-bottom: 24px; }
+      .teaching-heading .teaching-affiliation { display: none; }
+      .teaching-heading h1 { font-size: 2rem; }
+      .teaching-page .course-card { grid-template-columns: 1fr; }
+      .course-term { display: flex; align-items: baseline; gap: 8px; padding: 12px 22px; border-right: 0; border-bottom: 1px solid #e8e3e0; }
+      .course-term .season, .course-term .year { margin: 0; font-family: "Cabin", sans-serif; font-size: 1rem; font-weight: 500; letter-spacing: 0; }
+      .course-body { padding: 22px 22px 0; }
+      .course-schedule, .course-admin { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 15px 18px; }
+      .course-schedule--two { grid-template-columns: 1fr 2fr; }
+    }
+    @media (max-width: 575.98px) {
+      .teaching-site .header-top .phai-brand { gap: 14px; transform: none; min-width: 0; }
+      .teaching-site .header-top .phai-brand img { width: 58px; }
+      .teaching-site .header-top .site-logo { min-width: 0; }
+      .teaching-site .header-top .site-logo .site-title { font-size: 1.3rem; }
+      .teaching-site .header-top .site-logo .site-tagline { font-size: .85rem; }
+      .teaching-page .course-title { font-size: 1.4rem; }
+    }
+    @media (max-width: 359.98px) {
+      .course-schedule, .course-admin { grid-template-columns: 1fr; }
+      .course-body { padding-left: 17px; padding-right: 17px; }
+    }
   </style>
 </head>
 
-<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+<body class="teaching-site" data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
   <div class="site-wrap">
     <div class="header-top">
       <div class="container" style="padding:20px">
@@ -49,7 +105,7 @@
             <li><a href="./index.html" class="nav-link">Home</a></li>
             <li><a href="./research.html" class="nav-link">Research</a></li>
             <li><a href="./publication.html" class="nav-link">Publication</a></li>
-            <li class="active"><a href="./teaching.html" class="nav-link">Teaching</a></li>
+            <li class="active"><a href="./teaching.html" class="nav-link" aria-current="page">Teaching</a></li>
             <li><a href="./group.html" class="nav-link">Group</a></li>
             <li><a href="./opening.html" class="nav-link">Opening</a></li>
           </ul>
@@ -66,7 +122,7 @@
             <li><a href="./index.html" class="nav-link">Home</a></li>
             <li><a href="./research.html" class="nav-link">Research</a></li>
             <li><a href="./publication.html" class="nav-link">Publication</a></li>
-            <li class="active"><a href="./teaching.html" class="nav-link">Teaching</a></li>
+            <li class="active"><a href="./teaching.html" class="nav-link" aria-current="page">Teaching</a></li>
             <li><a href="./group.html" class="nav-link">Group</a></li>
             <li><a href="./opening.html" class="nav-link">Opening</a></li>
           </ul>
@@ -75,59 +131,101 @@
     </div>
     </div>
 
-    <div class="site-section">
-      <div class="container page-wrap">
-        <div class="section-title" style="margin-bottom:20px">
-          <h2>Teaching Experience</h2>
-        </div>
-
-        <div class="course-card">
-          <h4 class="term-title">Spring 2026</h4>
-          <div class="course-title">ECEN 689 (603SPTP): Multimodal Vision</div>
-          <div class="course-kv">
-            <div class="row">
-              <div class="col-12 col-sm-3 course-k">CRN</div>
-              <div class="col-12 col-sm-9">60186</div>
-            </div>
-            <div class="row">
-              <div class="col-12 col-sm-3 course-k">Classroom</div>
-              <div class="col-12 col-sm-9">AIEN M113</div>
-            </div>
-            <div class="row">
-              <div class="col-12 col-sm-3 course-k">Time</div>
-              <div class="col-12 col-sm-9">Tue/Thu, 09:35 AM&ndash;10:50 AM</div>
-            </div>
-            <div class="row">
-              <div class="col-12 col-sm-3 course-k">Office Hours</div>
-              <div class="col-12 col-sm-9">TBD</div>
-            </div>
+    <main class="teaching-page">
+      <div class="container teaching-wrap">
+        <header class="teaching-heading">
+          <div>
+            <h1>Teaching</h1>
+            <p>Multimodal vision &amp; computational data science.</p>
           </div>
-        </div>
+          <p class="teaching-affiliation">Texas A&amp;M University<br>Electrical &amp; Computer Engineering</p>
+        </header>
 
-        <div class="course-card">
-          <h4 class="term-title">Fall 2025</h4>
-          <div class="course-title">ECEN 360: Computational Data Science</div>
-          <div class="course-kv">
-            <div class="row">
-              <div class="col-12 col-sm-3 course-k">CRN</div>
-              <div class="col-12 col-sm-9">57145</div>
+        <div class="course-list">
+          <article class="course-card" aria-labelledby="fall-2026-title">
+            <div class="course-term" aria-label="Fall 2026">
+              <span class="season">Fall</span>
+              <span class="year">2026</span>
             </div>
-            <div class="row">
-              <div class="col-12 col-sm-3 course-k">Classroom</div>
-              <div class="col-12 col-sm-9">ZACH 260</div>
+            <div class="course-body">
+              <header class="course-heading">
+                <div>
+                  <p class="course-code">ECEN-689-602 <span class="credits">3 credits</span></p>
+                  <h2 class="course-title" id="fall-2026-title">Multimodal Computer Vision</h2>
+                  <p class="course-type">Special Topics</p>
+                </div>
+                <a class="course-link" href="https://tamu.simplesyllabus.com/en-US/" target="_blank" rel="noopener">Syllabus portal <span aria-hidden="true">↗</span></a>
+              </header>
+              <details class="course-details">
+                <summary>Course details</summary>
+                <dl class="course-admin">
+                  <div><dt>CRN</dt><dd>66694</dd></div>
+                  <div><dt>Attendance</dt><dd class="certified">Certified</dd></div>
+                </dl>
+              </details>
             </div>
-            <div class="row">
-              <div class="col-12 col-sm-3 course-k">Time</div>
-              <div class="col-12 col-sm-9">Mon/Wed/Fri, 11:30 AM&ndash;12:20 PM</div>
+          </article>
+
+          <article class="course-card" aria-labelledby="spring-2026-title">
+            <div class="course-term" aria-label="Spring 2026">
+              <span class="season">Spring</span>
+              <span class="year">2026</span>
             </div>
-            <div class="row">
-              <div class="col-12 col-sm-3 course-k">Office Hours</div>
-              <div class="col-12 col-sm-9">Tue/Wed, 2:15 PM&ndash;3:00 PM</div>
+            <div class="course-body">
+              <header class="course-heading">
+                <div>
+                  <p class="course-code">ECEN-689-603 <span class="credits">3 credits</span></p>
+                  <h2 class="course-title" id="spring-2026-title">Multimodal Vision</h2>
+                  <p class="course-type">Special Topics</p>
+                </div>
+                <a class="course-link" href="https://howdyportal.tamu.edu/uPortal/p/syllabus-ui.ctf3/max/render.uP?termCode=202611&amp;crn=60186&amp;syllabusRequired=Y" target="_blank" rel="noopener" aria-label="Spring 2026 syllabus portal in Howdy">Syllabus portal <span aria-hidden="true">↗</span></a>
+              </header>
+              <!-- Schedule retained from the existing Teaching page; not included in the new portal excerpt. -->
+              <dl class="course-schedule course-schedule--two">
+                <div><dt>Classroom</dt><dd>AIEN M113</dd></div>
+                <div><dt>Time</dt><dd>Tue/Thu, 9:35 AM&ndash;10:50 AM</dd></div>
+              </dl>
+              <details class="course-details">
+                <summary>Course details</summary>
+                <dl class="course-admin">
+                  <div><dt>CRN</dt><dd>60186</dd></div>
+                  <div><dt>Attendance</dt><dd class="certified">Certified</dd></div>
+                </dl>
+              </details>
             </div>
-          </div>
+          </article>
+
+          <article class="course-card" aria-labelledby="fall-2025-title">
+            <div class="course-term" aria-label="Fall 2025">
+              <span class="season">Fall</span>
+              <span class="year">2025</span>
+            </div>
+            <div class="course-body">
+              <header class="course-heading">
+                <div>
+                  <p class="course-code">ECEN-360-500 <span class="credits">3 credits</span></p>
+                  <h2 class="course-title" id="fall-2025-title">Computational Data Science</h2>
+                  <p class="course-type">Lecture</p>
+                </div>
+              </header>
+              <dl class="course-schedule">
+                <div><dt>Classroom</dt><dd>ZACH 260</dd></div>
+                <!-- Weekdays retained from the existing page; the portal excerpt's SuMTWRFS string is ambiguous. -->
+                <div><dt>Time</dt><dd>Mon/Wed/Fri<br>11:30 AM&ndash;12:20 PM</dd></div>
+                <div><dt>Course dates</dt><dd><time datetime="2025-08-25">Aug 25</time>&ndash;<time datetime="2025-12-16">Dec 16, 2025</time></dd></div>
+              </dl>
+              <details class="course-details">
+                <summary>Course details</summary>
+                <dl class="course-admin">
+                  <div><dt>CRN</dt><dd>57145</dd></div>
+                  <div><dt>Office hours</dt><dd>Tue/Wed<br>2:15 PM&ndash;3:00 PM</dd></div>
+                </dl>
+              </details>
+            </div>
+          </article>
         </div>
       </div>
-    </div>
+    </main>
 
     <div class="footer">
       <div class="container">
@@ -162,7 +260,4 @@
   <script src="./phai-lab_files/jquery.mb.YTPlayer.min.js"></script>
 </body>
 </html>
-
-
-
 
